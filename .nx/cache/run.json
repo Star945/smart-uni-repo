@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx dev:weapp myApp",
-    "startTime": "2024-11-07T03:45:59.976Z",
-    "endTime": "2024-11-07T08:33:14.604Z",
+    "command": "nx dev:weapp my-app",
+    "startTime": "2024-11-07T09:46:33.360Z",
+    "endTime": "2024-11-07T09:46:40.077Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "myApp:dev:weapp",
+      "taskId": "my-app:dev:weapp",
       "target": "dev:weapp",
-      "projectName": "myApp",
-      "hash": "1752680992332912443",
-      "startTime": "2024-11-07T03:45:59.987Z",
-      "endTime": "2024-11-07T08:33:14.603Z",
+      "projectName": "my-app",
+      "hash": "414472938019629039",
+      "startTime": "2024-11-07T09:46:33.373Z",
+      "endTime": "2024-11-07T09:46:40.076Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

@@ -6,24 +6,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "scripts/sync-pages.js",
-        "hash": "15269843772563033530"
-      },
-      {
-        "file": "README.md",
-        "hash": "7590452538560529639"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "11011058896714384281"
-      },
-      {
         "file": "package.json",
         "hash": "2389266756777664011"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "3796663082079345973"
       },
       {
         "file": ".gitignore",
@@ -32,89 +16,25 @@
       {
         "file": "nx.json",
         "hash": "17866989039446880168"
+      },
+      {
+        "file": "README.md",
+        "hash": "7590452538560529639"
+      },
+      {
+        "file": "scripts/sync-pages.js",
+        "hash": "15269843772563033530"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "11011058896714384281"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "9239867549098722696"
       }
     ],
     "projectFileMap": {
-      "hotel-template": [
-        {
-          "file": "apps/hotel-template/.gitignore",
-          "hash": "17379073569032699570"
-        },
-        {
-          "file": "apps/hotel-template/index.html",
-          "hash": "7247994451016919605"
-        },
-        {
-          "file": "apps/hotel-template/package.json",
-          "hash": "1066478895897219195",
-          "deps": [
-            "npm:@dcloudio/types",
-            "npm:@dcloudio/uni-automator",
-            "npm:@dcloudio/uni-cli-shared",
-            "npm:@dcloudio/uni-stacktracey",
-            "npm:@dcloudio/vite-plugin-uni",
-            "npm:@vue/runtime-core",
-            "npm:vite@5.2.8",
-            "npm:@dcloudio/uni-app",
-            "npm:@dcloudio/uni-app-harmony",
-            "npm:@dcloudio/uni-app-plus",
-            "npm:@dcloudio/uni-components",
-            "npm:@dcloudio/uni-h5",
-            "npm:@dcloudio/uni-mp-alipay",
-            "npm:@dcloudio/uni-mp-baidu",
-            "npm:@dcloudio/uni-mp-jd",
-            "npm:@dcloudio/uni-mp-kuaishou",
-            "npm:@dcloudio/uni-mp-lark",
-            "npm:@dcloudio/uni-mp-qq",
-            "npm:@dcloudio/uni-mp-toutiao",
-            "npm:@dcloudio/uni-mp-weixin",
-            "npm:@dcloudio/uni-mp-xhs",
-            "npm:@dcloudio/uni-quickapp-webview",
-            "npm:vue",
-            "npm:vue-i18n"
-          ]
-        },
-        {
-          "file": "apps/hotel-template/shims-uni.d.ts",
-          "hash": "3997806152327424849"
-        },
-        {
-          "file": "apps/hotel-template/src/App.vue",
-          "hash": "7785723150118408930"
-        },
-        {
-          "file": "apps/hotel-template/src/main.js",
-          "hash": "9751510874625968132"
-        },
-        {
-          "file": "apps/hotel-template/src/manifest.json",
-          "hash": "3311877615345029701"
-        },
-        {
-          "file": "apps/hotel-template/src/pages.json",
-          "hash": "9341202376509210791"
-        },
-        {
-          "file": "apps/hotel-template/src/pages/index/index.vue",
-          "hash": "14397517962037517135"
-        },
-        {
-          "file": "apps/hotel-template/src/shime-uni.d.ts",
-          "hash": "10871750326505642471"
-        },
-        {
-          "file": "apps/hotel-template/src/static/logo.png",
-          "hash": "9419671036202846119"
-        },
-        {
-          "file": "apps/hotel-template/src/uni.scss",
-          "hash": "14363733919316715295"
-        },
-        {
-          "file": "apps/hotel-template/vite.config.js",
-          "hash": "59241807522447095"
-        }
-      ],
       "smart_order": [
         {
           "file": "packages/smart_order/.gitignore",
@@ -203,119 +123,84 @@
           "hash": "59241807522447095"
         }
       ],
-      "my-app": [
+      "hotel-template": [
         {
-          "file": "apps/myApp/.editorconfig",
-          "hash": "3581770552661721389"
+          "file": "apps/hotel-template/.gitignore",
+          "hash": "17379073569032699570"
         },
         {
-          "file": "apps/myApp/.env.development",
-          "hash": "5259505594801593509"
+          "file": "apps/hotel-template/index.html",
+          "hash": "7247994451016919605"
         },
         {
-          "file": "apps/myApp/.env.production",
-          "hash": "3035846881440574913"
-        },
-        {
-          "file": "apps/myApp/.env.test",
-          "hash": "12651509559350038502"
-        },
-        {
-          "file": "apps/myApp/.eslintrc",
-          "hash": "4635252327089782050"
-        },
-        {
-          "file": "apps/myApp/.gitignore",
-          "hash": "3942261381143630352"
-        },
-        {
-          "file": "apps/myApp/babel.config.js",
-          "hash": "17732909262657425940"
-        },
-        {
-          "file": "apps/myApp/config/dev.js",
-          "hash": "1828011896293924882"
-        },
-        {
-          "file": "apps/myApp/config/index.js",
-          "hash": "10191670683757553136"
-        },
-        {
-          "file": "apps/myApp/config/prod.js",
-          "hash": "10646755560026693119"
-        },
-        {
-          "file": "apps/myApp/package.json",
-          "hash": "3118928578912486865",
+          "file": "apps/hotel-template/package.json",
+          "hash": "1066478895897219195",
           "deps": [
-            "npm:@babel/core",
-            "npm:@babel/plugin-proposal-class-properties",
-            "npm:@nutui/auto-import-resolver",
-            "npm:@tarojs/cli",
-            "npm:@tarojs/vite-runner",
-            "npm:@vitejs/plugin-vue@5.1.4",
-            "npm:@vitejs/plugin-vue-jsx",
-            "npm:babel-preset-taro",
-            "npm:eslint",
-            "npm:eslint-config-taro",
-            "npm:eslint-plugin-vue",
-            "npm:postcss",
-            "npm:sass",
-            "npm:stylelint",
-            "npm:terser",
-            "npm:unplugin-vue-components",
-            "npm:vite@4.5.5",
-            "npm:@babel/runtime",
-            "npm:@nutui/nutui-taro",
-            "npm:@tarojs/components",
-            "npm:@tarojs/helper",
-            "npm:@tarojs/plugin-framework-vue3",
-            "npm:@tarojs/plugin-html",
-            "npm:@tarojs/plugin-platform-alipay",
-            "npm:@tarojs/plugin-platform-h5",
-            "npm:@tarojs/plugin-platform-harmony-hybrid",
-            "npm:@tarojs/plugin-platform-jd",
-            "npm:@tarojs/plugin-platform-qq",
-            "npm:@tarojs/plugin-platform-swan",
-            "npm:@tarojs/plugin-platform-tt",
-            "npm:@tarojs/plugin-platform-weapp",
-            "npm:@tarojs/runtime",
-            "npm:@tarojs/shared",
-            "npm:@tarojs/taro",
-            "npm:vue"
+            "npm:@dcloudio/types",
+            "npm:@dcloudio/uni-automator",
+            "npm:@dcloudio/uni-cli-shared",
+            "npm:@dcloudio/uni-stacktracey",
+            "npm:@dcloudio/vite-plugin-uni",
+            "npm:@vue/runtime-core",
+            "npm:vite@5.2.8",
+            "npm:@dcloudio/uni-app",
+            "npm:@dcloudio/uni-app-harmony",
+            "npm:@dcloudio/uni-app-plus",
+            "npm:@dcloudio/uni-components",
+            "npm:@dcloudio/uni-h5",
+            "npm:@dcloudio/uni-mp-alipay",
+            "npm:@dcloudio/uni-mp-baidu",
+            "npm:@dcloudio/uni-mp-jd",
+            "npm:@dcloudio/uni-mp-kuaishou",
+            "npm:@dcloudio/uni-mp-lark",
+            "npm:@dcloudio/uni-mp-qq",
+            "npm:@dcloudio/uni-mp-toutiao",
+            "npm:@dcloudio/uni-mp-weixin",
+            "npm:@dcloudio/uni-mp-xhs",
+            "npm:@dcloudio/uni-quickapp-webview",
+            "npm:vue",
+            "npm:vue-i18n"
           ]
         },
         {
-          "file": "apps/myApp/project.config.json",
-          "hash": "9089188438225105309"
+          "file": "apps/hotel-template/shims-uni.d.ts",
+          "hash": "3997806152327424849"
         },
         {
-          "file": "apps/myApp/src/app.config.js",
-          "hash": "4002701104304324164"
+          "file": "apps/hotel-template/src/App.vue",
+          "hash": "7785723150118408930"
         },
         {
-          "file": "apps/myApp/src/app.js",
-          "hash": "6236543632335615119"
+          "file": "apps/hotel-template/src/main.js",
+          "hash": "9751510874625968132"
         },
         {
-          "file": "apps/myApp/src/app.scss",
-          "hash": "3244421341483603138"
+          "file": "apps/hotel-template/src/manifest.json",
+          "hash": "3311877615345029701"
         },
         {
-          "file": "apps/myApp/src/index.html",
-          "hash": "12305191812591921168"
+          "file": "apps/hotel-template/src/pages.json",
+          "hash": "9341202376509210791"
         },
         {
-          "file": "apps/myApp/src/pages/index/index.config.js",
-          "hash": "8616106039716719036"
+          "file": "apps/hotel-template/src/pages/index/index.vue",
+          "hash": "14397517962037517135"
         },
         {
-          "file": "apps/myApp/src/pages/index/index.scss",
-          "hash": "3244421341483603138"
+          "file": "apps/hotel-template/src/shime-uni.d.ts",
+          "hash": "10871750326505642471"
         },
         {
-          "file": "apps/myApp/src/pages/index/index.vue",
-          "hash": "3663965487923802602"
+          "file": "apps/hotel-template/src/static/logo.png",
+          "hash": "9419671036202846119"
+        },
+        {
+          "file": "apps/hotel-template/src/uni.scss",
+          "hash": "14363733919316715295"
+        },
+        {
+          "file": "apps/hotel-template/vite.config.js",
+          "hash": "59241807522447095"
         }
       ],
       "smart-uni-components": [
@@ -387,6 +272,121 @@
         {
           "file": "packages/components/vite.config.js",
           "hash": "16362039650580913027"
+        }
+      ],
+      "my-app": [
+        {
+          "file": "apps/my-app/.editorconfig",
+          "hash": "3581770552661721389"
+        },
+        {
+          "file": "apps/my-app/.env.development",
+          "hash": "5259505594801593509"
+        },
+        {
+          "file": "apps/my-app/.env.production",
+          "hash": "3035846881440574913"
+        },
+        {
+          "file": "apps/my-app/.env.test",
+          "hash": "12651509559350038502"
+        },
+        {
+          "file": "apps/my-app/.eslintrc",
+          "hash": "4635252327089782050"
+        },
+        {
+          "file": "apps/my-app/.gitignore",
+          "hash": "3942261381143630352"
+        },
+        {
+          "file": "apps/my-app/babel.config.js",
+          "hash": "17732909262657425940"
+        },
+        {
+          "file": "apps/my-app/config/dev.js",
+          "hash": "1828011896293924882"
+        },
+        {
+          "file": "apps/my-app/config/index.js",
+          "hash": "16242642327614814093"
+        },
+        {
+          "file": "apps/my-app/config/prod.js",
+          "hash": "10646755560026693119"
+        },
+        {
+          "file": "apps/my-app/package.json",
+          "hash": "3517356059104718187",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@babel/plugin-proposal-class-properties",
+            "npm:@nutui/auto-import-resolver",
+            "npm:@tarojs/cli",
+            "npm:@tarojs/vite-runner",
+            "npm:@vitejs/plugin-vue@5.1.4",
+            "npm:@vitejs/plugin-vue-jsx",
+            "npm:babel-preset-taro",
+            "npm:eslint",
+            "npm:eslint-config-taro",
+            "npm:eslint-plugin-vue",
+            "npm:postcss",
+            "npm:sass",
+            "npm:stylelint",
+            "npm:terser",
+            "npm:unplugin-vue-components",
+            "npm:vite@4.5.5",
+            "npm:@babel/runtime",
+            "npm:@nutui/nutui-taro",
+            "npm:@tarojs/components",
+            "npm:@tarojs/helper",
+            "npm:@tarojs/plugin-framework-vue3",
+            "npm:@tarojs/plugin-html",
+            "npm:@tarojs/plugin-platform-alipay",
+            "npm:@tarojs/plugin-platform-h5",
+            "npm:@tarojs/plugin-platform-harmony-hybrid",
+            "npm:@tarojs/plugin-platform-jd",
+            "npm:@tarojs/plugin-platform-qq",
+            "npm:@tarojs/plugin-platform-swan",
+            "npm:@tarojs/plugin-platform-tt",
+            "npm:@tarojs/plugin-platform-weapp",
+            "npm:@tarojs/runtime",
+            "npm:@tarojs/shared",
+            "npm:@tarojs/taro",
+            "npm:vue"
+          ]
+        },
+        {
+          "file": "apps/my-app/project.config.json",
+          "hash": "6440038517375516530"
+        },
+        {
+          "file": "apps/my-app/src/app.config.js",
+          "hash": "4002701104304324164"
+        },
+        {
+          "file": "apps/my-app/src/app.js",
+          "hash": "6236543632335615119"
+        },
+        {
+          "file": "apps/my-app/src/app.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/my-app/src/index.html",
+          "hash": "400985460012682381"
+        },
+        {
+          "file": "apps/my-app/src/pages/index/index.config.js",
+          "hash": "8616106039716719036"
+        },
+        {
+          "file": "apps/my-app/src/pages/index/index.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/my-app/src/pages/index/index.vue",
+          "hash": "18241994720732139280"
         }
       ]
     }

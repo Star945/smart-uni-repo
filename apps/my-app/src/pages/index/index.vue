@@ -2,6 +2,7 @@
   <view class="index">
     <text>{{ msg }}</text>
   </view>
+  <nut-button></nut-button>
 </template>
 
 <script>

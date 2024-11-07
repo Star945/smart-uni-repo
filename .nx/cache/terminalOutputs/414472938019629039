@@ -1,0 +1,23 @@
+
+> my-app@1.0.0 dev:weapp D:\Works\smart-uni-repo\apps\my-app
+> npm run build:weapp -- --watch
+
+
+> my-app@1.0.0 build:weapp
+> taro build --type weapp --watch
+
+👽 Taro v4.0.7
+
+TypeError: (0 , _autoimportresolver.NutUIResolver) is not a function
+    at [90mD:\Works\smart-uni-repo\apps\my-app\[39mconfig\index.js:32:34
+    at step [90m(D:\Works\smart-uni-repo\apps\my-app\[39mconfig\index.js:129:23[90m)[39m
+    at Object.next [90m(D:\Works\smart-uni-repo\apps\my-app\[39mconfig\index.js:70:20[90m)[39m
+    at asyncGeneratorStep [90m(D:\Works\smart-uni-repo\apps\my-app\[39mconfig\index.js:19:28[90m)[39m
+    at _next [90m(D:\Works\smart-uni-repo\apps\my-app\[39mconfig\index.js:37:17[90m)[39m
+    at [90mD:\Works\smart-uni-repo\apps\my-app\[39mconfig\index.js:42:13
+    at new Promise (<anonymous>)
+    at [90mD:\Works\smart-uni-repo\apps\my-app\[39mconfig\index.js:34:16
+    at [90mD:\Works\smart-uni-repo\apps\my-app\[39mconfig\index.js:252:21
+    at Config.<anonymous> (D:\Works\smart-uni-repo\node_modules\[4m.pnpm[24m\@tarojs+service@4.0.7\node_modules\[4m@tarojs[24m\service\src\Config.ts:62:71)
+[31m找不到插件依赖 "@tarojs/plugin-framework-react"，请先在项目中安装，项目路径：D:\Works\smart-uni-repo\apps\my-app[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
