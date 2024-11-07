@@ -1,0 +1,14 @@
+
+> my-app@1.0.0 dev:weapp D:\Works\smart-uni-repo\apps\myApp
+> npm run build:weapp -- --watch
+
+
+> my-app@1.0.0 build:weapp
+> taro build --type weapp --watch
+
+👽 Taro v4.0.7
+
+[38;2;255;0;0mTaro 配置有误，请检查！ (D:\Works\smart-uni-repo\apps\myApp\config\index.js)[39m
+  [32m[✓] [39m[38;2;255;255;255m成功获取远程配置验证文件：https://raw.githubusercontent.com/NervJS/taro-doctor/main/assets/config_schema.json[39m
+  [31m[✗] [39m[38;2;255;255;255mplugins.1 的值 {"api":{"findComponent":"__function__","stringifyImport":"__function__"},"configResolved":"__function__","configureServer":"__function__","enforce":"post","name":"unplugin-vue-components","transform":"__function__","transformInclude":"__function__","vite":{"configResolved":"__function__","configureServer":"__function__"},"webpack":"__function__"} 不符合类型要求[39m
+

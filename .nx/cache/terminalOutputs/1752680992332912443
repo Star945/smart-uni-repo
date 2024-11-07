@@ -1,0 +1,106 @@
+
+> myApp@1.0.0 dev:weapp D:\Works\smart-uni-repo\apps\myApp
+> npm run build:weapp -- --watch
+
+
+> myApp@1.0.0 build:weapp
+> taro build --type weapp --watch
+
+👽 Taro v4.0.7
+
+[93mTips:[39m
+[93m1[39m. [93m预览模式生成的文件较大，设置 NODE_ENV 为 production 可以开启压缩。[39m
+[93mExample:[39m
+[93m$ set NODE_ENV=production && taro build --type weapp --watch[39m
+
+
+[36mvite v4.5.5 [32mbuilding for production...[36m[39m
+[36m
+watching for file changes...[39m
+[36m
+build started...[39m
+transforming...
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[32m✓[39m 93 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mcomp.json               [39m[1m[2m  0.07 kB[22m[1m[22m[2m │ gzip:   0.07 kB[22m
+[2mdist/[22m[32mpages/index/index.wxml  [39m[1m[2m  0.08 kB[22m[1m[22m
+[2mdist/[22m[32mpages/index/index.json  [39m[1m[2m  0.09 kB[22m[1m[22m[2m │ gzip:   0.10 kB[22m
+[2mdist/[22m[32mcomp.wxml               [39m[1m[2m  0.14 kB[22m[1m[22m
+[2mdist/[22m[32mapp.json                [39m[1m[2m  0.22 kB[22m[1m[22m[2m │ gzip:   0.15 kB[22m
+[2mdist/[22m[32mutils.wxs               [39m[1m[2m  1.00 kB[22m[1m[22m
+[2mdist/[22m[32mbase.wxml               [39m[1m[2m 53.68 kB[22m[1m[22m
+[2mdist/[22m[36mcomp.js                 [39m[1m[2m  0.10 kB[22m[1m[22m[2m │ gzip:   0.11 kB[22m
+[2mdist/[22m[36mapp.js                  [39m[1m[2m  0.67 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
+[2mdist/[22m[36mpages/index/index.js    [39m[1m[2m  0.96 kB[22m[1m[22m[2m │ gzip:   0.57 kB[22m
+[2mdist/[22m[36mtaro.js                 [39m[1m[2m418.07 kB[22m[1m[22m[2m │ gzip: 101.54 kB[22m
+[36mbuilt in 3384ms.[39m
+[36m
+build started...[39m
+[32m✓[39m 3 modules transformed.
+[2mdist/[22m[32mcomp.json               [39m[1m[2m  0.07 kB[22m[1m[22m[2m │ gzip:   0.07 kB[22m
+[2mdist/[22m[32mpages/index/index.wxml  [39m[1m[2m  0.08 kB[22m[1m[22m
+[2mdist/[22m[32mpages/index/index.json  [39m[1m[2m  0.09 kB[22m[1m[22m[2m │ gzip:   0.10 kB[22m
+[2mdist/[22m[32mcomp.wxml               [39m[1m[2m  0.14 kB[22m[1m[22m
+[2mdist/[22m[32mapp.json                [39m[1m[2m  0.22 kB[22m[1m[22m[2m │ gzip:   0.15 kB[22m
+[2mdist/[22m[32mutils.wxs               [39m[1m[2m  1.00 kB[22m[1m[22m
+[2mdist/[22m[32mbase.wxml               [39m[1m[2m 53.68 kB[22m[1m[22m
+[2mdist/[22m[36mcomp.js                 [39m[1m[2m  0.10 kB[22m[1m[22m[2m │ gzip:   0.11 kB[22m
+[2mdist/[22m[36mapp.js                  [39m[1m[2m  0.67 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
+[2mdist/[22m[36mpages/index/index.js    [39m[1m[2m  1.02 kB[22m[1m[22m[2m │ gzip:   0.59 kB[22m
+[2mdist/[22m[36mtaro.js                 [39m[1m[2m418.07 kB[22m[1m[22m[2m │ gzip: 101.54 kB[22m
+[36mbuilt in 827ms.[39m
+[36m
+build started...[39m
+[32m✓[39m 2 modules transformed.
+[2mdist/[22m[32mcomp.json               [39m[1m[2m  0.07 kB[22m[1m[22m[2m │ gzip:   0.07 kB[22m
+[2mdist/[22m[32mpages/index/index.wxml  [39m[1m[2m  0.08 kB[22m[1m[22m
+[2mdist/[22m[32mpages/index/index.json  [39m[1m[2m  0.09 kB[22m[1m[22m[2m │ gzip:   0.10 kB[22m
+[2mdist/[22m[32mcomp.wxml               [39m[1m[2m  0.14 kB[22m[1m[22m
+[2mdist/[22m[32mapp.json                [39m[1m[2m  0.22 kB[22m[1m[22m[2m │ gzip:   0.15 kB[22m
+[2mdist/[22m[32mutils.wxs               [39m[1m[2m  1.00 kB[22m[1m[22m
+[2mdist/[22m[32mbase.wxml               [39m[1m[2m 53.68 kB[22m[1m[22m
+[2mdist/[22m[36mcomp.js                 [39m[1m[2m  0.10 kB[22m[1m[22m[2m │ gzip:   0.11 kB[22m
+[2mdist/[22m[36mapp.js                  [39m[1m[2m  0.67 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
+[2mdist/[22m[36mpages/index/index.js    [39m[1m[2m  1.06 kB[22m[1m[22m[2m │ gzip:   0.59 kB[22m
+[2mdist/[22m[36mtaro.js                 [39m[1m[2m418.39 kB[22m[1m[22m[2m │ gzip: 101.59 kB[22m
+[36mbuilt in 1700ms.[39m
+[36m
+build started...[39m
+[32m✓[39m 1 modules transformed.
+[2mdist/[22m[32mcomp.json               [39m[1m[2m  0.07 kB[22m[1m[22m[2m │ gzip:   0.07 kB[22m
+[2mdist/[22m[32mpages/index/index.wxml  [39m[1m[2m  0.08 kB[22m[1m[22m
+[2mdist/[22m[32mpages/index/index.json  [39m[1m[2m  0.09 kB[22m[1m[22m[2m │ gzip:   0.10 kB[22m
+[2mdist/[22m[32mcomp.wxml               [39m[1m[2m  0.14 kB[22m[1m[22m
+[2mdist/[22m[32mapp.json                [39m[1m[2m  0.22 kB[22m[1m[22m[2m │ gzip:   0.15 kB[22m
+[2mdist/[22m[32mutils.wxs               [39m[1m[2m  1.00 kB[22m[1m[22m
+[2mdist/[22m[32mbase.wxml               [39m[1m[2m 53.68 kB[22m[1m[22m
+[2mdist/[22m[36mcomp.js                 [39m[1m[2m  0.10 kB[22m[1m[22m[2m │ gzip:   0.11 kB[22m
+[2mdist/[22m[36mapp.js                  [39m[1m[2m  0.67 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
+[2mdist/[22m[36mpages/index/index.js    [39m[1m[2m  1.06 kB[22m[1m[22m[2m │ gzip:   0.59 kB[22m
+[2mdist/[22m[36mtaro.js                 [39m[1m[2m418.39 kB[22m[1m[22m[2m │ gzip: 101.59 kB[22m
+[36mbuilt in 809ms.[39m
+[36m
+build started...[39m
+[32m✓[39m 2 modules transformed.
+[2mdist/[22m[32mcomp.json               [39m[1m[2m  0.07 kB[22m[1m[22m[2m │ gzip:   0.07 kB[22m
+[2mdist/[22m[32mpages/index/index.wxml  [39m[1m[2m  0.08 kB[22m[1m[22m
+[2mdist/[22m[32mpages/index/index.json  [39m[1m[2m  0.09 kB[22m[1m[22m[2m │ gzip:   0.10 kB[22m
+[2mdist/[22m[32mcomp.wxml               [39m[1m[2m  0.14 kB[22m[1m[22m
+[2mdist/[22m[32mapp.json                [39m[1m[2m  0.22 kB[22m[1m[22m[2m │ gzip:   0.15 kB[22m
+[2mdist/[22m[32mutils.wxs               [39m[1m[2m  1.00 kB[22m[1m[22m
+[2mdist/[22m[32mbase.wxml               [39m[1m[2m 53.68 kB[22m[1m[22m
+[2mdist/[22m[36mcomp.js                 [39m[1m[2m  0.10 kB[22m[1m[22m[2m │ gzip:   0.11 kB[22m
+[2mdist/[22m[36mapp.js                  [39m[1m[2m  0.67 kB[22m[1m[22m[2m │ gzip:   0.49 kB[22m
+[2mdist/[22m[36mpages/index/index.js    [39m[1m[2m  1.06 kB[22m[1m[22m[2m │ gzip:   0.59 kB[22m
+[2mdist/[22m[36mtaro.js                 [39m[1m[2m418.39 kB[22m[1m[22m[2m │ gzip: 101.59 kB[22m
+[36mbuilt in 791ms.[39m
+^C^C[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 3221225786.[39m
