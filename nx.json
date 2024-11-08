@@ -3,7 +3,7 @@
         "default":{
             "runner":"nx/tasks-runners/default",
             "options":{
-                "cacheableOperations":["dev","build","build:mp-weixin","dev:mp-weixin"]
+                "cacheableOperations":["dev","build","build:mp-weixin","dev:mp-weixin","dev:weapp"]
             }
         }
     }
