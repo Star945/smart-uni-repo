@@ -1985,3 +1985,25 @@
 [NX Daemon Server] - 2024-11-08T02:31:05.634Z - [REQUEST]: Responding to the client. handleHashTasks
 [NX Daemon Server] - 2024-11-08T02:31:05.634Z - Done responding to the client handleHashTasks
 [NX Daemon Server] - 2024-11-08T02:31:05.634Z - Handled HASH_TASKS. Handling time: 21. Response time: 0.
+[NX Daemon Server] - 2024-11-08T02:31:12.530Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T02:31:19.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T02:31:26.203Z - [WATCHER]: apps/my-app/__systemSupport__ was deleted
+[NX Daemon Server] - 2024-11-08T02:31:26.203Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T02:31:26.314Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-11-08T02:31:26.314Z - [REQUEST]: 
+[NX Daemon Server] - 2024-11-08T02:31:26.314Z - [REQUEST]: apps/my-app/__systemSupport__
+[NX Daemon Server] - 2024-11-08T02:31:26.317Z - Time taken for 'hash changed files from watcher' 0.24870014190673828ms
+[NX Daemon Server] - 2024-11-08T02:31:26.337Z - Time taken for 'build-project-configs' 17.41260004043579ms
+[NX Daemon Server] - 2024-11-08T02:31:26.377Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2024-11-08T02:31:26.377Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2024-11-08T02:31:26.377Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2024-11-08T02:31:26.378Z - Time taken for 'total execution time for createProjectGraph()' 29.128100156784058ms
+[NX Daemon Server] - 2024-11-08T02:31:30.262Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T02:32:01.312Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T02:32:03.027Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T02:34:37.824Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-11-08T02:34:37.825Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-11-08T02:34:37.826Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-11-08T02:34:37.826Z - [WATCHER]: Stopping the watcher for D:\Works\smart-uni-repo (sources)
+[NX Daemon Server] - 2024-11-08T02:34:37.826Z - [WATCHER]: Stopping the watcher for D:\Works\smart-uni-repo (outputs)
+[NX Daemon Server] - 2024-11-08T02:34:37.827Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
