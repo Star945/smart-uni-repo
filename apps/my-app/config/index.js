@@ -25,20 +25,31 @@ export default defineConfig(async (merge, { command, mode }) => {
     },
     sourceRoot: "src",
     outputRoot: "dist",
-    plugins: [],
-    vitePlugins: [
-      Components({
-        dirs: ["src/components"],
-        resolvers: [NutUIResolver({ taro: true })],
-      }),
-    ],
+    plugins: ["@tarojs/plugin-html"],
     defineConstants: {},
     copy: {
       patterns: [],
       options: {},
     },
     framework: "vue3",
-    compiler: "vite",
+    compiler: {
+      type: "vite",
+      prebundle: {
+        exclude: ["@nutui/nutui-taro", "@nutui/icons-vue-taro"],
+        // enable: false,
+        // force: true,
+      },
+      vitePlugins: [
+        // 开启 unplugin 插件，自动按需引入 NutUI 组件
+        Components({
+          // include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/],
+          resolvers: [NutUIResolver({ taro: true })],
+        }),
+      ],
+    },
+    cache: {
+      enable: false,
+    },
     mini: {
       postcss: {
         pxtransform: {
