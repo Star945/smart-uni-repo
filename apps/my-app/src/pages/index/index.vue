@@ -6,8 +6,8 @@
         <nut-switch v-model="checked" @change="change" />
       </template>
     </nut-cell>
-    <nut-cell title="Title" sub-title="Subtitle" desc="Description"></nut-cell>
-
+    <nut-cell title="Title"  sub-title="Subtitle" desc="Description"></nut-cell>
+    <view class="w-11">11</view>
     <nut-form>
       <nut-form-item label="Switch">
         <nut-switch v-model="formData.switch"></nut-switch>
